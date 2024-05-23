@@ -10,6 +10,5 @@ while True:
     khoroji.write(dor)
     if cv2.waitKey(1) == ord("q"):
         break
-
 khoroji.release()
 cv2.destroyAllWindows()
