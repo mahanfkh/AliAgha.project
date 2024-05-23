@@ -1,7 +1,7 @@
 import os
 
 def find_file():
-    folder_path = "C:\Users\mft\Desktop\AliAgha.project"  # replace with the path to the folder you want to search in
+    folder_path = "C:\Users\mft\Desktop\AliAgha.project"  
     file_name = input("Enter the file name: ")
 
     for file in os.listdir(folder_path):
